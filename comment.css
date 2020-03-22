@@ -1,0 +1,82 @@
+:root {
+  --greyLike : #555;
+  --fadeColor : rgb(0,0,0,0.5);
+}
+
+.container {
+  width : 80%;
+  margin : auto;
+  margin-bottom: 100px;
+}
+.descriptionText {
+  color : var(--greyLike);
+}
+.container div {
+  text-align: center;
+}
+.authorContainer {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 40%;
+  margin : auto;
+}
+.authorName {
+  color : #888;
+}
+.authorImg img {
+  height : 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.author {
+  margin : 10px;
+}
+.authorDescription {
+  font-size: 12px;
+  color : var(--fadeColor);
+}
+
+/* second section */
+
+.footerContainer {
+  width: 80%;
+  margin : auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.footerContainer ul {
+  list-style: none;
+  padding: 0px;
+}
+.footerContainer ul li {
+  margin : 0px 0px 10px 0px;
+}
+.footerContainer ul li a{
+  color : var(--greyLike);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*margin holder*/
